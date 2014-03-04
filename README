@@ -1,0 +1,70 @@
+Documentation for Warmup Assignment 2
+=====================================
+
++-------+
+| BUILD |
++-------+
+
+Comments: use "make" to build
+
++---------+
+| GRADING |
++---------+
+
+Basic running of the code : 100 out of 100 pts
+
+Missing required section(s) in README file : 0 (Comments: included)
+Cannot compile :0 (Comments: successful)
+Compiler warnings :0 (Comments: successful)
+"make clean" :0 (Comments: use "make clean")
+Segmentation faults :0 (Comments: successful)
+Separate compilation :0 (Comments: successful)
+Using busy-wait :0 (Comments: No)
+Handling of commandline arguments:
+    1) -n : 0 (Comments: successful)
+    2) -lambda :0 (Comments: successful)
+    3) -mu :0 (Comments: successful)
+    4) -r :0 (Comments: successful)
+    5) -B :0 (Comments: successful)
+    6) -P :0 (Comments: successful)
+Trace output :
+    1) regular packets: 0(Comments: successful)
+    2) dropped packets: 0(Comments: successful)
+    3) removed packets: 0(Comments: successful)
+    4) token arrival (dropped or not dropped):0 (Comments: successful)
+Statistics output :
+    1) inter-arrival time :0 (Comments: successful)
+    2) service time :0 (Comments: successful)
+    3) number of customers in Q1 :0 (Comments: successful)
+    4) number of customers in Q2 :0 (Comments: successful)
+    5) number of customers at a server :0 (Comments: successful)
+    6) time in system :0 (Comments: successful)
+    7) standard deviation for time in system :0 (Comments: successful)
+    8) drop probability :0 (Comments: successful)
+Output bad format :0 (Comments: successful)
+Output wrong precision for statistics (should be 6-8 significant digits) :0 (Comments: successful)
+Large service time test :0 (Comments: successful)
+Large inter-arrival time test : 0(Comments: successful)
+Tiny inter-arrival time test : 0 (Comments: the minimum sleep time of nunki is 10ms, so I cannot precisely get 6ms sleep)
+Tiny service time test : 0 (Comments: the same as above)
+Large total number of customers test :0 (Comments: successful)
+Large total number of customers with high arrival rate test :0 (Comments: successful)
+Dropped tokens test :0 (Comments: successful)
+Cannot handle <Cntrl+C> at all (ignored or no statistics) :0 (Comments: successful)
+Can handle <Cntrl+C> but statistics way off :0 (Comments: successful)
+Not using condition variables and do some kind of busy-wait :0 (Comments)
+Synchronization check :0 (Comments: successful)
+Deadlocks :0 (Comments: successful)
+
++------+
+| BUGS |
++------+
+
+Comments: No bugs in program.
+
++-------+
+| OTHER |
++-------+
+
+Comments on design decisions: 
+Comments on deviation from spec: 
