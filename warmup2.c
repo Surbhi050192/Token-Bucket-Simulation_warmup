@@ -15,6 +15,7 @@
 int main(int argc,char *argv[])
 {
     sigset(SIGINT,handler);
+	//just to try the github
     //printf("run\n");
     //printf("argv num %d\n",argc);
     //int a=0;
